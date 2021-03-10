@@ -1,25 +1,26 @@
-[[source]]
-url = "https://pypi.python.org/simple"
-verify_ssl = true
-name = "pypi"
+Flask==1.1.2
+gunicorn==20.0.4; python_version > '3.0'
+gunicorn==19.10.0; python_version < '3.0'
+google-cloud-vision==2.2.0
+google-cloud-storage==1.36.1
+google-cloud-datastore==2.1.0
 
-[packages]
-flask = "*"
-flask-admin = "*"
-flask-bootstrap = "*"
-flask-cache = "*"
-flask-flatpages = "*"
-flask-gravatar = "*"
-flask-login = "*"
-flask-mail = "*"
-flask-pymongo = "*"
-flask-restless = "*"
-flask-sqlalchemy = "*"
-flask-themes = "*"
-flask-uploads = "*"
-flask-wtf = "*"
+google-cloud-bigquery>=2.7.0
+google-cloud-bigquery-storage>=2.2.1
 
-[dev-packages]
+flask-admin ==1.5.3
+flask-bootstrap ==3.3.7.1
 
-[requires]
-python_version = "3.8"
+# Flask Packages
+Flask-Login==0.4.0
+Flask-Migrate==2.0.2
+Flask-Script==2.0.5
+Flask-SQLAlchemy==2.4.0
+Flask-WTF==0.14.2
+Flask-User==1.0.1.5
+
+# Automated tests
+pytest==3.0.5
+pytest-cov==2.4.0
+
+
