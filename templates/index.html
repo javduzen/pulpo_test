@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+
+{%block title%}Index!{%endblock%}
+
+{%block main_content%}
+
+	<h1>Index</h1>
+	<div class="about-me">
+		<p>Hola! Yo soy&nbsp;<strong>CryptoPulo</strong>. Trabajo cada día tratando de controlar mis emociones pero no puedo, ayudame y controlame.</p>
+	</div>
+	<div class="row">
+		<div class="col-md-4">
+			<img src="templates/img/octopus.png" class="img-polaroid">
+		</div>
+	</div>
+
+	<div class="container" data-aos="fade-up">
+		<div class="heading">
+			<h2>Proceso compra</h2>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="card special-skill-item border-0">
+					<div class="card-header bg-transparent border-0"><i class="icon ion-ios-star-outline"></i></div>
+					<div class="card-body">
+						<h3 class="card-title">Pagas</h3>
+						<p class="card-text">Su gran chamullo del blockchain y de lo fantastico que es el sistema y como se comprueba a partir de la red el pago</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card special-skill-item border-0">
+					<div class="card-header bg-transparent border-0"><i class="icon ion-ios-lightbulb-outline"></i></div>
+					<div class="card-body">
+						<h3 class="card-title">Información despacho</h3>
+						<p class="card-text">El cliente como toda la vida llena la info de despacho que puede ser en chile y en vola internacional aunque, como va a ser tan famoso</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card special-skill-item border-0">
+					<div class="card-header bg-transparent border-0"><i class="icon ion-ios-gear-outline"></i></div>
+					<div class="card-body">
+						<h3 class="card-title">Seguimiento en tiempo real</h3>
+						<p class="card-text">Metemos el tremendo chamullo de la tremenda logistica automatizada utilizando modelos predictivos y data science pa llegar lo más rapido posible a sus casas plot twist usamos un print en la pestaña de seguimiento</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div>
+		<a class="buy-with-crypto"
+		   href="https://commerce.coinbase.com/checkout/57ce1082-e328-4841-81a2-f34f0a3da46c">
+		  Buy with Crypto
+		</a>
+		<script src="https://commerce.coinbase.com/v1/checkout.js?version=201807">
+		</script>
+	</div>
+
+
+{%endblock%}
